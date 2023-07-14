@@ -10,6 +10,7 @@ Sync music libraries and playlists between music streaming services
 
 
 # Features:
+* Support for Apple Music and Spotify, eventually other services like Soundcloud or Youtube Music
 * Sync Spotify liked songs library to Apple Music library
   * spotify: create a playlist that is a copy of a user's liked songs library
     * there does not seem to be a direct way to fetch all the songs in a user's Spotify library. With the most popular service, users need to manually create a playist including all liked songs, but this should be automated easily
