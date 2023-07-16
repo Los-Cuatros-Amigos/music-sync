@@ -10,12 +10,15 @@ Sync music libraries and playlists between music streaming services
 
 
 # Planned features:
-* Support for Apple Music and Spotify, eventually other services like Soundcloud or Youtube Music
-* Sync Spotify liked songs library to Apple Music library
+* Support for Apple Music and Spotify
+    * eventually other services like Soundcloud or Youtube Music
+* Sync liked songs across services
   * spotify: create a playlist that is a copy of a user's liked songs library
-    * there does not seem to be a direct way to fetch all the songs in a user's Spotify library, so we should automate copying liked songs into a playlist
-  * Add songs to destination library in the same order they were added in origin library
+    * there does not seem to be a direct way to traverse the songs in a user's Spotify library, so we should automatically copy all liked songs into a playlist (with option for deletion afterwards)
+  * maintain chronological order
     * mainstream service added my songs in reverse order, so now my library looks like it was in 2019
-* Synchronize playlists either live or on intervals (paid feature? would take resources)
-* Fetch user's music taste data that is used to curate recommendations
-  * not sure if this is possible with any service tbh... the best solution may just be to copy curated playlists from the service with more data to the preferred service
+* Synchronize playlists
+  *  either live or on intervals (paid feature? would take resources)
+* Transfer user's music taste data
+  * not sure if this is possible with any service tbh... it is unlikely that listening history data can be accessed, let alone translated across services
+  * the best solution may just be to copy curated playlists from the service with more data to the preferred service
