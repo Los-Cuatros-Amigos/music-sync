@@ -8,6 +8,7 @@ Sync music libraries and playlists between music streaming services
 * [Apple Music API](https://developer.apple.com/documentation/applemusicapi)
   * [generating developer tokens](https://developer.apple.com/documentation/applemusicapi/generating_developer_tokens)
   * [get all library playlists](https://developer.apple.com/documentation/applemusicapi/get_all_library_playlists)
+    * [PyJWT, (JSON web token generation)](https://pyjwt.readthedocs.io/en/latest/)
 
 
 # Planned features:
